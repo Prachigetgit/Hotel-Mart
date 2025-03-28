@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Mart Store</title>
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- font awesome cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- header section starts  -->
+    <header>
+      <a href="#" class="logo">Hostel<span> Mart</span></a>
+
+      <form action="">
+        <input type="search" id="search-bar" />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+
+      <div class="icons">
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <div id="theme-toggler" class="fas fa-moon"></div>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart">
+          <span class="cart-count">0</span>
+        </a>
+        <a href="login.html" class="fas fa-user"></a>
+        <a href="logout_Sucessfully.html" class="fas fa-sign-out-alt"></a>
+      </div>
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- navbar section  -->
+    <nav class="navbar">
+      <div class="user">
+        <img src="img/logo.jpeg" alt="Logo" />
+        <h3>Hostel Mart</h3>
+      </div>
+
+      <div class="search-box">
+        <input type="search" placeholder="Search products..." />
+        <button class="fas fa-search"></button>
+      </div>
+
+      <div class="links">
+        <a href="#home">home</a>
+        <a href="#products">products</a>
+        <a href="#featured">featured</a>
+        <a href="#deal">deal</a>
+        <a href="#review">review</a>
+      </div>
+
+      <div class="navbar-actions">
+        <a href="#" class="cart-btn">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </a>
+        <a href="logout_Sucessfully.html" class="logout-btn">
+          <i class="fas fa-sign-out-alt"></i>
+        </a>
+      </div>
+
+      <div id="close" class="fas fa-times"></div>
+    </nav>
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home"></section>
+
+    <!-- home section ends -->
+
+    <!-- category section starts  -->
+
+    <section class="category">
+      <h1 class="heading">shop by <span>category</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="img/linen.jpg" alt="Bedding & Linens" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>Bedding & Linens</h3>
+            <a href="bedding.html" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="img/kitchen.jpg" alt="Kitchen Essentials" />
+          <div class="content">
+            <span>upto 50% off</span>
+            <h3>Kitchen Essentials</h3>
+            <a href="kitchen.html" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- category section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+      <h1 class="heading">latest <span>products</span></h1>
+
+      <div class="swiper-container product-slider gap">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+
+              <div class="image">
+                <a href="#"
+                  ><img src="img/Relive kenit sneakers.jpg" alt="Study Lamp"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Study Table</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"><img src="img/p2.png" alt="Storage Organizer" /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Storage Organizer</h3>
+                <div class="price">Rs.750.00 <span>Rs.1250.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="img/WhatsApp Image 2025-03-29 at 00.19.30_3ab7e68f.jpg"
+                    alt="Study Table"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Mirror</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="img/WhatsApp Image 2025-03-29 at 00.16.54_f28eb58e.jpg"
+                    alt="Mirror"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Headphones</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="img/WhatsApp Image 2025-03-29 at 00.16.53_0b628f4c.jpg"
+                    alt="Water Bottle"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Kettle</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+      <!-- <div class="swiper-container product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-share"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="img/WhatsApp Image 2025-03-29 at 00.16.54_13fa60f3.jpg"
+                    alt="First Aid Kit"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>First Aid Kit</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="icons">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-search"></a>
+                <a href="#" class="fas fa-eye"></a>
+              </div>
+              <div class="image">
+                <a href="#"
+                  ><img
+                    src="img/WhatsApp Image 2025-03-29 at 00.16.54_c55cc41b.jpg"
+                    alt="Extension Board"
+                /></a>
+              </div>
+              <div class="content">
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>( 250 reviews )</span>
+                </div>
+                <h3>Extension Board</h3>
+                <div class="price">Rs.750.00 <span>Rs.1000.00</span></div>
+                <a href="#" class="btn">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div> -->
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+      <h1 class="heading"><span>featured</span> products</h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="img/Relive kenit sneakers.jpg"
+                class="small-image-1"
+                alt="Study Table View 1"
+              />
+              <img
+                src="img/womens_shoe.jpg"
+                class="small-image-1"
+                alt="Study Table View 2"
+              />
+              <img
+                src="img/Mens_shoe.jpg"
+                class="small-image-1"
+                alt="Study Table View 3"
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="img/special.jpg"
+                class="big-image-1"
+                alt="Study Table Main View"
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>Premium Study Table Set</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              Our Premium Study Table Set is designed for maximum comfort and
+              productivity. Made from high-quality materials, this set includes
+              a spacious desk with built-in storage compartments and an
+              ergonomic chair. Perfect for long study sessions and remote work.
+            </p>
+            <div class="price">Rs.1550.00 <span>Rs.2250.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="img/p2.png"
+                class="small-image-2"
+                alt="Storage Set View 1"
+              />
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.19.30_3ab7e68f.jpg"
+                class="small-image-2"
+                alt="Storage Set View 2"
+              />
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.19.30_f418fe4f.jpg"
+                class="small-image-2"
+                alt="Storage Set View 3"
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.16.54_f28eb58e.jpg"
+                class="big-image-2"
+                alt="Storage Set Main View"
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>Complete Storage Solution</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              Our Complete Storage Solution includes multiple organizers and
+              storage boxes designed to keep your hostel room neat and
+              organized. Made from durable materials with smart compartments for
+              efficient space utilization.
+            </p>
+            <div class="price">Rs.1350.00 <span>Rs.1850.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image-container">
+            <div class="small-image">
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.16.53_0b628f4c.jpg"
+                class="small-image-3"
+                alt="Essential Kit View 1"
+              />
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.16.54_13fa60f3.jpg"
+                class="small-image-3"
+                alt="Essential Kit View 2"
+              />
+              <img
+                src="img/WhatsApp Image 2025-03-29 at 00.16.54_c55cc41b.jpg"
+                class="small-image-3"
+                alt="Essential Kit View 3"
+              />
+            </div>
+            <div class="big-image">
+              <img
+                src="img/special.jpg"
+                class="big-image-3"
+                alt="Essential Kit Main View"
+              />
+            </div>
+          </div>
+          <div class="content">
+            <h3>Hostel Essential Kit</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>( 250 reviews )</span>
+            </div>
+            <p>
+              The Hostel Essential Kit includes everything you need for a
+              comfortable stay. From a water bottle to a first aid kit and
+              extension board, this comprehensive set ensures you're
+              well-equipped for hostel life.
+            </p>
+            <div class="price">Rs.1450.00 <span>Rs.2050.00</span></div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- deal section starts  -->
+
+    <section class="deal" id="deal">
+      <h1 class="heading">special <span>deal</span></h1>
+
+      <div class="row">
+        <div class="content">
+          <span class="discount">
+            Good Things Come in Small Packages Because Our Footwear Believes In
+            The Comfort Of The Feet</span
+          >
+          <h3 class="text">✨COMMING SOON✨</h3>
+          <div class="count-down">
+            <div class="box">
+              <h3 id="days">00</h3>
+              <span>days</span>
+            </div>
+            <div class="box">
+              <h3 id="hours">00</h3>
+              <span>hours</span>
+            </div>
+            <div class="box">
+              <h3 id="minutes">00</h3>
+              <span>minutes</span>
+            </div>
+            <div class="box">
+              <h3 id="seconds">00</h3>
+              <span>seconds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="image">
+          <img src="img/special.jpg" alt="Special Deal" />
+        </div>
+      </div>
+    </section>
+
+    <!-- deal section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customers <span>review</span></h1>
+
+      <div class="swiper-container review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="box">
+                <img src="img/pic1.png" alt="" />
+                <h3>john deo</h3>
+                <p>
+                  Great quality products! The study table and chair set is
+                  perfect for my hostel room.
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="box">
+                <img src="img/pic2.png" alt="" />
+                <h3>john deo</h3>
+                <p>
+                  Fast delivery and excellent customer service. The storage
+                  organizers are very useful!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="box">
+                <img src="img/pic3.png" alt="" />
+                <h3>john deo</h3>
+                <p>
+                  Best place to buy hostel mart products. The electric kettle is
+                  a lifesaver!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="slide">
+              <div class="box">
+                <img src="img/pic4.png" alt="" />
+                <h3>john deo</h3>
+                <p>
+                  Affordable prices and good quality products. The laundry
+                  basket is sturdy!
+                </p>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+      <div class="footer-container">
+        <div class="box-container">
+          <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#featured">featured</a>
+            <a href="#deal">deal</a>
+            <a href="#review">review</a>
+          </div>
+
+          <div class="box">
+            <h3>extra links</h3>
+            <a href="#">my account</a>
+            <a href="#">my favorite</a>
+            <a href="#">my order</a>
+            <a href="#">my cart</a>
+          </div>
+
+          <div class="box">
+            <h3>donwload links</h3>
+            <a href="#">windows store</a>
+            <a href="#">app store</a>
+            <a href="#">google store</a>
+          </div>
+
+          <div class="box">
+            <h3>contact us</h3>
+            <a href="#">+123-456-7890</a>
+            <a href="#">jk's collection@gmail.com</a>
+            <a href="#">mumbai, india - 400104</a>
+            <img src="images/payment.png" alt=" " />
+          </div>
+        </div>
+
+        <div class="credit">
+          OUR PAGE HAS END,<span> BUT OUR RELATIONSHIP WITH YOU HAS NOT </span
+          >......
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section ends -->
+
+    <a href="#" class="scroll-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+    <script src="js/countdown.js"></script>
+  </body>
+</html>
