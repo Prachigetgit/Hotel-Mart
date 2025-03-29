@@ -497,7 +497,7 @@ body.dark-theme .navbar .search-box button {
   }
 
   header form {
-    display: none;
+    /* display: none; */
   }
 
   #menu-bar {
@@ -538,12 +538,12 @@ body.dark-theme .navbar .search-box button {
     height: 30rem;
   }
 
-  header .icons {
+  /* header .icons {
     display: none;
-  }
+  } */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   header .icons {
     gap: 1.5rem;
   }
